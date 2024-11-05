@@ -167,7 +167,7 @@ After migrating to the new package name @coral-xyz/anchor, NodeWallet was either
 2. **Steps:**
    - **Clone the Repository:**
      ```
-     git clone <repository-url>
+     git clone https://github.com/YangIsCoding/Fractionalize-cNFT-on-Solana.git
      cd fractionalize-cnft
      ```
    - **Install Dependencies:**
@@ -200,7 +200,8 @@ After migrating to the new package name @coral-xyz/anchor, NodeWallet was either
      ```
 
      ![alt text](image.png)
-    **Important: If you deploy the smart contract once again, you should change the program_id in Anchor.toml and lib.rs**
+
+**Important: If you deploy the smart contract once again, you should change the program_id in Anchor.toml and lib.rs**
 
 ## Conclusion
 
