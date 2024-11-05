@@ -98,19 +98,19 @@ pub struct LockNftAndMintFractions<'info> {
     #[account(mut)]
     pub user: Signer<'info>,
 
-    ///   verify `user_nft_account` 
+    ///   verified `user_nft_account` 
     #[account(mut)]
     pub user_nft_account: UncheckedAccount<'info>,
 
-    ///   verify `vault_nft_account` 
+    ///   verified `vault_nft_account` 
     #[account(mut)]
     pub vault_nft_account: UncheckedAccount<'info>,
 
-    ///   verify `fraction_mint` 
+    ///   verified `fraction_mint` 
     #[account(mut)]
     pub fraction_mint: UncheckedAccount<'info>,
 
-    ///   verify `user_fraction_account` 
+    ///   verified `user_fraction_account` 
     #[account(mut)]
     pub user_fraction_account: UncheckedAccount<'info>,
 
@@ -124,19 +124,19 @@ pub struct RedeemFractionsAndUnlockNft<'info> {
     #[account(mut)]
     pub user: Signer<'info>,
 
-    ///   verify `user_fraction_account` 
+    ///   verified `user_fraction_account` 
     #[account(mut)]
     pub user_fraction_account: UncheckedAccount<'info>,
 
-    ///   verify `fraction_mint` 
+    ///   verified `fraction_mint` 
     #[account(mut)]
     pub fraction_mint: UncheckedAccount<'info>,
 
-    ///   verify `user_nft_account` 
+    ///   verified `user_nft_account`
     #[account(mut)]
     pub user_nft_account: UncheckedAccount<'info>,
 
-    ///   verify `vault_nft_account` 
+    ///   verified `vault_nft_account` 
     #[account(mut)]
     pub vault_nft_account: UncheckedAccount<'info>,
 
