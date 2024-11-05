@@ -49,9 +49,6 @@ describe("fractionalize-cnft", function () {
       console.log("Payer balance:", balance / anchor.web3.LAMPORTS_PER_SOL, "SOL");
       if (balance < anchor.web3.LAMPORTS_PER_SOL) {
         console.warn("Payer has less than 1 SOL, please airdrop manually.");
-        // Optional: prompt user to manually airdrop
-        // await connection.requestAirdrop(payerKeypair.publicKey, anchor.web3.LAMPORTS_PER_SOL);
-        // await connection.confirmTransaction(airdropSignature, "confirmed");
       }
 
       // Create NFT Mint

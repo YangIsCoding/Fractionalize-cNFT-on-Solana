@@ -98,19 +98,19 @@ pub struct LockNftAndMintFractions<'info> {
     #[account(mut)]
     pub user: Signer<'info>,
 
-    /// CHECK: We manually verify `user_nft_account` in the program, such as owner and data correctness
+    ///   verify `user_nft_account` 
     #[account(mut)]
     pub user_nft_account: UncheckedAccount<'info>,
 
-    /// CHECK: We manually verify `vault_nft_account` in the program, such as owner and data correctness
+    ///   verify `vault_nft_account` 
     #[account(mut)]
     pub vault_nft_account: UncheckedAccount<'info>,
 
-    /// CHECK: We manually verify `fraction_mint` in the program, such as owner and data correctness
+    ///   verify `fraction_mint` 
     #[account(mut)]
     pub fraction_mint: UncheckedAccount<'info>,
 
-    /// CHECK: We manually verify `user_fraction_account` in the program, such as owner and data correctness
+    ///   verify `user_fraction_account` 
     #[account(mut)]
     pub user_fraction_account: UncheckedAccount<'info>,
 
@@ -124,19 +124,19 @@ pub struct RedeemFractionsAndUnlockNft<'info> {
     #[account(mut)]
     pub user: Signer<'info>,
 
-    /// CHECK: We manually verify `user_fraction_account` in the program, such as owner and data correctness
+    ///   verify `user_fraction_account` 
     #[account(mut)]
     pub user_fraction_account: UncheckedAccount<'info>,
 
-    /// CHECK: We manually verify `fraction_mint` in the program, such as owner and data correctness
+    ///   verify `fraction_mint` 
     #[account(mut)]
     pub fraction_mint: UncheckedAccount<'info>,
 
-    /// CHECK: We manually verify `user_nft_account` in the program, such as owner and data correctness
+    ///   verify `user_nft_account` 
     #[account(mut)]
     pub user_nft_account: UncheckedAccount<'info>,
 
-    /// CHECK: We manually verify `vault_nft_account` in the program, such as owner and data correctness
+    ///   verify `vault_nft_account` 
     #[account(mut)]
     pub vault_nft_account: UncheckedAccount<'info>,
 
